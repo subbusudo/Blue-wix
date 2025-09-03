@@ -1,0 +1,447 @@
+2025-09-03 02:28:05,987 - INFO - Starting IDS monitoring on interface: lo
+
+    ╔══════════════════════════════════════════════════════════════╗
+    ║                    INTRUSION DETECTION SYSTEM                ║
+    ║                         blue-wix CLI                         ║
+    ╚══════════════════════════════════════════════════════════════╝
+    
+Starting IDS monitoring...
+IDS started on interface: lo
+Press Ctrl+C to stop monitoring...
+Packets: 0, Alerts: 0Packets: 0, Alerts: 0Packets: 0, Alerts: 0Packets: 0, Alerts: 0Packets: 0, Alerts: 0Packets: 0, Alerts: 0Packets: 0, Alerts: 0Packets: 0, Alerts: 0Packets: 0, Alerts: 02025-09-03 02:28:15,729 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:15,729 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:15,876 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:15,877 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:15,877 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:15,877 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+[91m[02:28:15] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:15] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:15] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:15] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:15] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:15] HIGH: Port scan detected from 127.0.0.1[0m
+Packets: 16, Alerts: 62025-09-03 02:28:16,025 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:16,025 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:16,025 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:16,026 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:16,169 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:16,170 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:16,171 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:16,171 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:16,325 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:16,325 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:16,326 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:16,326 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:16,469 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:16,469 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:16,470 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:16,470 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:16,641 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:16,641 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:16,641 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:16,642 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:16,788 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:16,789 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:16,789 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:16,789 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:16,941 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:16,941 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:16,941 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:16,942 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+[91m[02:28:16] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:16] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:16] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:16] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:16] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:16] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:16] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:16] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:16] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:16] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:16] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:16] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:16] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:16] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:16] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:16] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:16] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:16] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:16] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:16] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:16] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:16] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:16] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:16] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:16] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:16] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:16] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:16] HIGH: Port scan detected from 127.0.0.1[0m
+Packets: 44, Alerts: 342025-09-03 02:28:17,089 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:17,089 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:17,089 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:17,090 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:17,261 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:17,261 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:17,261 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:17,262 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:17,421 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:17,421 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:17,422 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:17,422 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:17,553 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:17,554 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:17,554 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:17,554 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:17,713 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:17,714 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:17,714 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:17,715 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:17,886 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:17,887 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:17,887 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:17,887 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+[91m[02:28:17] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:17] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:17] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:17] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:17] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:17] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:17] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:17] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:17] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:17] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:17] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:17] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:17] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:17] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:17] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:17] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:17] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:17] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:17] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:17] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:17] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:17] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:17] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:17] HIGH: Port scan detected from 127.0.0.1[0m
+Packets: 68, Alerts: 582025-09-03 02:28:18,045 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:18,046 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:18,046 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:18,046 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:18,217 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:18,218 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:18,219 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:18,219 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:18,377 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:18,377 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:18,377 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:18,378 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:18,534 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:18,534 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:18,534 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:18,535 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:18,685 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:18,686 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:18,686 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:18,686 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:18,857 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:18,857 - WARNING - ALERT: SUSPICIOUS_PORT - Access to suspicious port 23 from 127.0.0.1
+2025-09-03 02:28:18,857 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:18,857 - WARNING - ALERT: SUSPICIOUS_PORT - Access to suspicious port 23 from 127.0.0.1
+2025-09-03 02:28:18,857 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:18,858 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+[91m[02:28:18] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:18] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:18] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:18] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:18] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:18] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:18] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:18] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:18] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:18] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:18] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:18] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:18] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:18] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:18] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:18] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:18] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:18] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:18] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:18] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:18] HIGH: Port scan detected from 127.0.0.1[0m
+[33m[02:28:18] MEDIUM: Access to suspicious port 23 from 127.0.0.1[0m
+[91m[02:28:18] HIGH: Port scan detected from 127.0.0.1[0m
+[33m[02:28:18] MEDIUM: Access to suspicious port 23 from 127.0.0.1[0m
+[91m[02:28:18] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:18] HIGH: Port scan detected from 127.0.0.1[0m
+Packets: 92, Alerts: 842025-09-03 02:28:19,009 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:19,009 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:19,010 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:19,010 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:19,144 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:19,145 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:19,145 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:19,146 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:19,305 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:19,305 - WARNING - ALERT: SYN_FLOOD - SYN flood detected from 127.0.0.1
+2025-09-03 02:28:19,305 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:19,306 - WARNING - ALERT: SYN_FLOOD - SYN flood detected from 127.0.0.1
+2025-09-03 02:28:19,306 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:19,306 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:19,453 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:19,453 - WARNING - ALERT: SYN_FLOOD - SYN flood detected from 127.0.0.1
+2025-09-03 02:28:19,453 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:19,454 - WARNING - ALERT: SYN_FLOOD - SYN flood detected from 127.0.0.1
+2025-09-03 02:28:19,454 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:19,454 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:19,617 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:19,617 - WARNING - ALERT: SYN_FLOOD - SYN flood detected from 127.0.0.1
+2025-09-03 02:28:19,617 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:19,617 - WARNING - ALERT: SYN_FLOOD - SYN flood detected from 127.0.0.1
+2025-09-03 02:28:19,618 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:19,618 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:19,763 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:19,763 - WARNING - ALERT: SYN_FLOOD - SYN flood detected from 127.0.0.1
+2025-09-03 02:28:19,763 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:19,763 - WARNING - ALERT: SYN_FLOOD - SYN flood detected from 127.0.0.1
+2025-09-03 02:28:19,766 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:19,770 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:19,911 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:19,912 - WARNING - ALERT: SYN_FLOOD - SYN flood detected from 127.0.0.1
+2025-09-03 02:28:19,912 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:19,912 - WARNING - ALERT: SYN_FLOOD - SYN flood detected from 127.0.0.1
+2025-09-03 02:28:19,912 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:19,913 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+[91m[02:28:19] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:19] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:19] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:19] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:19] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:19] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:19] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:19] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:19] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:19] HIGH: SYN flood detected from 127.0.0.1[0m
+[91m[02:28:19] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:19] HIGH: SYN flood detected from 127.0.0.1[0m
+[91m[02:28:19] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:19] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:19] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:19] HIGH: SYN flood detected from 127.0.0.1[0m
+[91m[02:28:19] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:19] HIGH: SYN flood detected from 127.0.0.1[0m
+[91m[02:28:19] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:19] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:19] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:19] HIGH: SYN flood detected from 127.0.0.1[0m
+[91m[02:28:19] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:19] HIGH: SYN flood detected from 127.0.0.1[0m
+[91m[02:28:19] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:19] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:19] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:19] HIGH: SYN flood detected from 127.0.0.1[0m
+[91m[02:28:19] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:19] HIGH: SYN flood detected from 127.0.0.1[0m
+[91m[02:28:19] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:19] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:19] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:19] HIGH: SYN flood detected from 127.0.0.1[0m
+[91m[02:28:19] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:19] HIGH: SYN flood detected from 127.0.0.1[0m
+[91m[02:28:19] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:19] HIGH: Port scan detected from 127.0.0.1[0m
+Packets: 120, Alerts: 1222025-09-03 02:28:20,050 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:20,051 - WARNING - ALERT: SYN_FLOOD - SYN flood detected from 127.0.0.1
+2025-09-03 02:28:20,051 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:20,051 - WARNING - ALERT: SYN_FLOOD - SYN flood detected from 127.0.0.1
+2025-09-03 02:28:20,052 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:20,052 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:20,189 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:20,189 - WARNING - ALERT: SYN_FLOOD - SYN flood detected from 127.0.0.1
+2025-09-03 02:28:20,189 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:20,189 - WARNING - ALERT: SYN_FLOOD - SYN flood detected from 127.0.0.1
+2025-09-03 02:28:20,190 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:20,190 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:20,331 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:20,331 - WARNING - ALERT: SYN_FLOOD - SYN flood detected from 127.0.0.1
+2025-09-03 02:28:20,332 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:20,332 - WARNING - ALERT: SYN_FLOOD - SYN flood detected from 127.0.0.1
+2025-09-03 02:28:20,332 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:20,332 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+[91m[02:28:20] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:20] HIGH: SYN flood detected from 127.0.0.1[0m
+[91m[02:28:20] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:20] HIGH: SYN flood detected from 127.0.0.1[0m
+[91m[02:28:20] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:20] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:20] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:20] HIGH: SYN flood detected from 127.0.0.1[0m
+[91m[02:28:20] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:20] HIGH: SYN flood detected from 127.0.0.1[0m
+[91m[02:28:20] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:20] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:20] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:20] HIGH: SYN flood detected from 127.0.0.1[0m
+[91m[02:28:20] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:20] HIGH: SYN flood detected from 127.0.0.1[0m
+[91m[02:28:20] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:20] HIGH: Port scan detected from 127.0.0.1[0m
+Packets: 132, Alerts: 140Packets: 132, Alerts: 140Packets: 156, Alerts: 140Packets: 190, Alerts: 140Packets: 228, Alerts: 140Packets: 252, Alerts: 140Packets: 252, Alerts: 1402025-09-03 02:28:27,625 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:27,625 - WARNING - ALERT: SYN_FLOOD - SYN flood detected from 127.0.0.1
+2025-09-03 02:28:27,625 - WARNING - ALERT: SUSPICIOUS_PORT - Access to suspicious port 3389 from 127.0.0.1
+2025-09-03 02:28:27,625 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:27,625 - WARNING - ALERT: SYN_FLOOD - SYN flood detected from 127.0.0.1
+2025-09-03 02:28:27,625 - WARNING - ALERT: SUSPICIOUS_PORT - Access to suspicious port 3389 from 127.0.0.1
+2025-09-03 02:28:27,626 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:27,626 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+[91m[02:28:27] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:27] HIGH: SYN flood detected from 127.0.0.1[0m
+[33m[02:28:27] MEDIUM: Access to suspicious port 3389 from 127.0.0.1[0m
+[91m[02:28:27] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:27] HIGH: SYN flood detected from 127.0.0.1[0m
+[33m[02:28:27] MEDIUM: Access to suspicious port 3389 from 127.0.0.1[0m
+[91m[02:28:27] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:27] HIGH: Port scan detected from 127.0.0.1[0m
+Packets: 256, Alerts: 1482025-09-03 02:28:28,181 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:28,181 - WARNING - ALERT: SYN_FLOOD - SYN flood detected from 127.0.0.1
+2025-09-03 02:28:28,181 - WARNING - ALERT: SUSPICIOUS_PORT - Access to suspicious port 445 from 127.0.0.1
+2025-09-03 02:28:28,182 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:28,182 - WARNING - ALERT: SYN_FLOOD - SYN flood detected from 127.0.0.1
+2025-09-03 02:28:28,182 - WARNING - ALERT: SUSPICIOUS_PORT - Access to suspicious port 445 from 127.0.0.1
+2025-09-03 02:28:28,183 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:28,183 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:28,745 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:28,745 - WARNING - ALERT: SYN_FLOOD - SYN flood detected from 127.0.0.1
+2025-09-03 02:28:28,745 - WARNING - ALERT: SUSPICIOUS_PORT - Access to suspicious port 135 from 127.0.0.1
+2025-09-03 02:28:28,745 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:28,745 - WARNING - ALERT: SYN_FLOOD - SYN flood detected from 127.0.0.1
+2025-09-03 02:28:28,745 - WARNING - ALERT: SUSPICIOUS_PORT - Access to suspicious port 135 from 127.0.0.1
+2025-09-03 02:28:28,746 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:28,746 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+[91m[02:28:28] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:28] HIGH: SYN flood detected from 127.0.0.1[0m
+[33m[02:28:28] MEDIUM: Access to suspicious port 445 from 127.0.0.1[0m
+[91m[02:28:28] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:28] HIGH: SYN flood detected from 127.0.0.1[0m
+[33m[02:28:28] MEDIUM: Access to suspicious port 445 from 127.0.0.1[0m
+[91m[02:28:28] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:28] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:28] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:28] HIGH: SYN flood detected from 127.0.0.1[0m
+[33m[02:28:28] MEDIUM: Access to suspicious port 135 from 127.0.0.1[0m
+[91m[02:28:28] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:28] HIGH: SYN flood detected from 127.0.0.1[0m
+[33m[02:28:28] MEDIUM: Access to suspicious port 135 from 127.0.0.1[0m
+[91m[02:28:28] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:28] HIGH: Port scan detected from 127.0.0.1[0m
+Packets: 264, Alerts: 1642025-09-03 02:28:29,301 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:29,301 - WARNING - ALERT: SYN_FLOOD - SYN flood detected from 127.0.0.1
+2025-09-03 02:28:29,301 - WARNING - ALERT: SUSPICIOUS_PORT - Access to suspicious port 135 from 127.0.0.1
+2025-09-03 02:28:29,302 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:29,302 - WARNING - ALERT: SYN_FLOOD - SYN flood detected from 127.0.0.1
+2025-09-03 02:28:29,302 - WARNING - ALERT: SUSPICIOUS_PORT - Access to suspicious port 135 from 127.0.0.1
+2025-09-03 02:28:29,302 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:29,303 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:29,857 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:29,857 - WARNING - ALERT: SYN_FLOOD - SYN flood detected from 127.0.0.1
+2025-09-03 02:28:29,857 - WARNING - ALERT: SUSPICIOUS_PORT - Access to suspicious port 23 from 127.0.0.1
+2025-09-03 02:28:29,858 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:29,858 - WARNING - ALERT: SYN_FLOOD - SYN flood detected from 127.0.0.1
+2025-09-03 02:28:29,858 - WARNING - ALERT: SUSPICIOUS_PORT - Access to suspicious port 23 from 127.0.0.1
+2025-09-03 02:28:29,859 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:29,859 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+[91m[02:28:29] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:29] HIGH: SYN flood detected from 127.0.0.1[0m
+[33m[02:28:29] MEDIUM: Access to suspicious port 135 from 127.0.0.1[0m
+[91m[02:28:29] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:29] HIGH: SYN flood detected from 127.0.0.1[0m
+[33m[02:28:29] MEDIUM: Access to suspicious port 135 from 127.0.0.1[0m
+[91m[02:28:29] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:29] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:29] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:29] HIGH: SYN flood detected from 127.0.0.1[0m
+[33m[02:28:29] MEDIUM: Access to suspicious port 23 from 127.0.0.1[0m
+[91m[02:28:29] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:29] HIGH: SYN flood detected from 127.0.0.1[0m
+[33m[02:28:29] MEDIUM: Access to suspicious port 23 from 127.0.0.1[0m
+[91m[02:28:29] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:29] HIGH: Port scan detected from 127.0.0.1[0m
+Packets: 272, Alerts: 1802025-09-03 02:28:30,393 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:30,393 - WARNING - ALERT: SYN_FLOOD - SYN flood detected from 127.0.0.1
+2025-09-03 02:28:30,393 - WARNING - ALERT: SUSPICIOUS_PORT - Access to suspicious port 135 from 127.0.0.1
+2025-09-03 02:28:30,393 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:30,393 - WARNING - ALERT: SYN_FLOOD - SYN flood detected from 127.0.0.1
+2025-09-03 02:28:30,394 - WARNING - ALERT: SUSPICIOUS_PORT - Access to suspicious port 135 from 127.0.0.1
+2025-09-03 02:28:30,394 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:30,394 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+[91m[02:28:30] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:30] HIGH: SYN flood detected from 127.0.0.1[0m
+[33m[02:28:30] MEDIUM: Access to suspicious port 135 from 127.0.0.1[0m
+[91m[02:28:30] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:30] HIGH: SYN flood detected from 127.0.0.1[0m
+[33m[02:28:30] MEDIUM: Access to suspicious port 135 from 127.0.0.1[0m
+[91m[02:28:30] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:30] HIGH: Port scan detected from 127.0.0.1[0m
+Packets: 276, Alerts: 188Packets: 276, Alerts: 1882025-09-03 02:28:32,980 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:32,984 - WARNING - ALERT: SYN_FLOOD - SYN flood detected from 127.0.0.1
+2025-09-03 02:28:32,984 - WARNING - ALERT: LARGE_PACKET - Large packet detected: 2054 bytes
+2025-09-03 02:28:32,984 - WARNING - ALERT: SIZE_ANOMALY - Unusual packet size: 2054 bytes
+2025-09-03 02:28:32,987 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:32,987 - WARNING - ALERT: SYN_FLOOD - SYN flood detected from 127.0.0.1
+2025-09-03 02:28:32,988 - WARNING - ALERT: LARGE_PACKET - Large packet detected: 2054 bytes
+2025-09-03 02:28:32,988 - WARNING - ALERT: SIZE_ANOMALY - Unusual packet size: 2054 bytes
+2025-09-03 02:28:32,991 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:32,996 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+[91m[02:28:32] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:32] HIGH: SYN flood detected from 127.0.0.1[0m
+[93m[02:28:32] LOW: Large packet detected: 2054 bytes[0m
+[33m[02:28:32] MEDIUM: Unusual packet size: 2054 bytes[0m
+[91m[02:28:32] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:32] HIGH: SYN flood detected from 127.0.0.1[0m
+[93m[02:28:32] LOW: Large packet detected: 2054 bytes[0m
+[33m[02:28:32] MEDIUM: Unusual packet size: 2054 bytes[0m
+[91m[02:28:32] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:32] HIGH: Port scan detected from 127.0.0.1[0m
+Packets: 280, Alerts: 1982025-09-03 02:28:33,995 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:33,995 - WARNING - ALERT: SYN_FLOOD - SYN flood detected from 127.0.0.1
+2025-09-03 02:28:33,995 - WARNING - ALERT: LARGE_PACKET - Large packet detected: 2054 bytes
+2025-09-03 02:28:33,995 - WARNING - ALERT: SIZE_ANOMALY - Unusual packet size: 2054 bytes
+2025-09-03 02:28:33,995 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:33,995 - WARNING - ALERT: SYN_FLOOD - SYN flood detected from 127.0.0.1
+2025-09-03 02:28:33,995 - WARNING - ALERT: LARGE_PACKET - Large packet detected: 2054 bytes
+2025-09-03 02:28:33,996 - WARNING - ALERT: SIZE_ANOMALY - Unusual packet size: 2054 bytes
+2025-09-03 02:28:33,996 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:33,996 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+[91m[02:28:33] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:33] HIGH: SYN flood detected from 127.0.0.1[0m
+[93m[02:28:33] LOW: Large packet detected: 2054 bytes[0m
+[33m[02:28:33] MEDIUM: Unusual packet size: 2054 bytes[0m
+[91m[02:28:33] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:33] HIGH: SYN flood detected from 127.0.0.1[0m
+[93m[02:28:33] LOW: Large packet detected: 2054 bytes[0m
+[33m[02:28:33] MEDIUM: Unusual packet size: 2054 bytes[0m
+[91m[02:28:33] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:33] HIGH: Port scan detected from 127.0.0.1[0m
+Packets: 284, Alerts: 208Packets: 284, Alerts: 2082025-09-03 02:28:35,037 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:35,037 - WARNING - ALERT: SYN_FLOOD - SYN flood detected from 127.0.0.1
+2025-09-03 02:28:35,037 - WARNING - ALERT: LARGE_PACKET - Large packet detected: 2054 bytes
+2025-09-03 02:28:35,037 - WARNING - ALERT: SIZE_ANOMALY - Unusual packet size: 2054 bytes
+2025-09-03 02:28:35,038 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:35,038 - WARNING - ALERT: SYN_FLOOD - SYN flood detected from 127.0.0.1
+2025-09-03 02:28:35,038 - WARNING - ALERT: LARGE_PACKET - Large packet detected: 2054 bytes
+2025-09-03 02:28:35,038 - WARNING - ALERT: SIZE_ANOMALY - Unusual packet size: 2054 bytes
+2025-09-03 02:28:35,038 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+2025-09-03 02:28:35,038 - WARNING - ALERT: PORT_SCAN - Port scan detected from 127.0.0.1
+[91m[02:28:35] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:35] HIGH: SYN flood detected from 127.0.0.1[0m
+[93m[02:28:35] LOW: Large packet detected: 2054 bytes[0m
+[33m[02:28:35] MEDIUM: Unusual packet size: 2054 bytes[0m
+[91m[02:28:35] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:35] HIGH: SYN flood detected from 127.0.0.1[0m
+[93m[02:28:35] LOW: Large packet detected: 2054 bytes[0m
+[33m[02:28:35] MEDIUM: Unusual packet size: 2054 bytes[0m
+[91m[02:28:35] HIGH: Port scan detected from 127.0.0.1[0m
+[91m[02:28:35] HIGH: Port scan detected from 127.0.0.1[0m
+Packets: 288, Alerts: 218Packets: 288, Alerts: 218Packets: 288, Alerts: 218Packets: 352, Alerts: 218Packets: 428, Alerts: 218Packets: 496, Alerts: 218Packets: 504, Alerts: 218Packets: 504, Alerts: 218Packets: 504, Alerts: 218Packets: 504, Alerts: 218Packets: 504, Alerts: 218Packets: 504, Alerts: 218Packets: 504, Alerts: 218Packets: 504, Alerts: 218Packets: 504, Alerts: 218Packets: 504, Alerts: 218Packets: 504, Alerts: 218
