@@ -1,0 +1,42 @@
+{
+    "interface": "any",
+    "signature_rules": {
+        "port_scan_threshold": 10,
+        "syn_flood_threshold": 50,
+        "large_packet_threshold": 1500,
+        "suspicious_ports": [23, 135, 139, 445, 1433, 3389],
+        "blocked_ips": [],
+        "allowed_ips": []
+    },
+    "anomaly_detection": {
+        "enabled": true,
+        "connection_rate_threshold": 20,
+        "packet_size_deviation": 2.0
+    },
+    "logging": {
+        "level": "INFO",
+        "file": "ids.log",
+        "max_size": "10MB"
+    },
+    "notifications": {
+        "enabled": false,
+        "min_severity": "HIGH",
+        "email": {
+            "enabled": false,
+            "smtp_host": "smtp.gmail.com",
+            "smtp_port": 587,
+            "use_tls": true,
+            "username": "your_gmail_address@gmail.com",
+            "app_password": "your_app_password",
+            "to": ["recipient@example.com"]
+        },
+        "whatsapp": {
+            "enabled": false,
+            "provider": "twilio",
+            "account_sid": "your_twilio_account_sid",
+            "auth_token": "your_twilio_auth_token",
+            "from_number": "whatsapp:+14155238886",
+            "to_numbers": ["whatsapp:+1234567890"]
+        }
+    }
+}
