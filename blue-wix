@@ -1,0 +1,265 @@
+#!/usr/bin/env python3
+"""
+blue-wix - Command Line Interface for the Intrusion Detection System
+"""
+
+import argparse
+import sys
+import os
+import time
+import json
+from datetime import datetime
+from ids_core import IDSCore
+from pathlib import Path
+
+
+def print_banner():
+    """Print the application banner."""
+    banner = """
+    ╔══════════════════════════════════════════════════════════════╗
+    ║                    INTRUSION DETECTION SYSTEM                ║
+    ║                         blue-wix CLI                         ║
+    ╚══════════════════════════════════════════════════════════════╝
+    """
+    print(banner)
+
+
+def start_monitoring(args):
+    """Start IDS monitoring."""
+    print("Starting IDS monitoring...")
+    
+    # Check for root privileges
+    if os.geteuid() != 0:
+        print("ERROR: Root privileges required for packet capture.")
+        print("Please run with sudo or as root.")
+        sys.exit(1)
+    
+    # Initialize IDS
+    ids = IDSCore(args.config)
+    
+    # Set interface if specified
+    if args.interface:
+        ids.config['interface'] = args.interface
+    
+    # Alert callback for CLI
+    def alert_callback(alert):
+        timestamp = alert['timestamp'].strftime('%H:%M:%S')
+        severity_color = {
+            'LOW': '\033[93m',      # Yellow
+            'MEDIUM': '\033[33m',   # Orange
+            'HIGH': '\033[91m',     # Red
+            'CRITICAL': '\033[95m'  # Purple
+        }
+        reset_color = '\033[0m'
+        
+        color = severity_color.get(alert['severity'], '')
+        print(f"{color}[{timestamp}] {alert['severity']}: {alert['description']}{reset_color}")
+    
+    ids.set_alert_callback(alert_callback)
+    
+    # Start monitoring
+    try:
+        ids.start_monitoring()
+        print(f"IDS started on interface: {ids.config['interface']}")
+        print("Press Ctrl+C to stop monitoring...")
+        
+        # Monitor loop
+        while True:
+            time.sleep(1)
+            if args.stats:
+                stats = ids.get_statistics()
+                print(f"\rPackets: {stats['packets_analyzed']}, Alerts: {stats['alerts_generated']}", end='', flush=True)
+    
+    except KeyboardInterrupt:
+        print("\nStopping IDS...")
+        ids.stop_monitoring()
+        
+        # Print final statistics
+        stats = ids.get_statistics()
+        print("\n" + "="*50)
+        print("FINAL STATISTICS")
+        print("="*50)
+        print(f"Uptime: {stats['uptime']}")
+        print(f"Packets Analyzed: {stats['packets_analyzed']}")
+        print(f"Alerts Generated: {stats['alerts_generated']}")
+        print("\nAttack Types Detected:")
+        for attack_type, count in stats['attacks_detected'].items():
+            if count > 0:
+                print(f"  {attack_type}: {count}")
+        
+        print("\nTop Sources:")
+        for ip, count in list(stats['top_sources'].items())[:5]:
+            print(f"  {ip}: {count}")
+        
+        print("\nTop Destinations:")
+        for ip, count in list(stats['top_destinations'].items())[:5]:
+            print(f"  {ip}: {count}")
+
+
+def show_config(args):
+    """Show current configuration."""
+    ids = IDSCore(args.config)
+    config = ids.config
+    
+    print("Current IDS Configuration:")
+    print("="*40)
+    print(f"Interface: {config['interface']}")
+    print(f"Log Level: {config['logging']['level']}")
+    print(f"Log File: {config['logging']['file']}")
+    
+    print("\nSignature Rules:")
+    rules = config['signature_rules']
+    print(f"  Port Scan Threshold: {rules['port_scan_threshold']}")
+    print(f"  SYN Flood Threshold: {rules['syn_flood_threshold']}")
+    print(f"  Large Packet Threshold: {rules['large_packet_threshold']}")
+    print(f"  Suspicious Ports: {rules['suspicious_ports']}")
+    
+    print("\nAnomaly Detection:")
+    anomaly = config['anomaly_detection']
+    print(f"  Enabled: {anomaly['enabled']}")
+    print(f"  Connection Rate Threshold: {anomaly['connection_rate_threshold']}")
+    print(f"  Packet Size Deviation: {anomaly['packet_size_deviation']}")
+
+
+def test_detection(args):
+    """Test detection capabilities."""
+    print("Testing IDS detection capabilities...")
+    
+    # Check for root privileges
+    if os.geteuid() != 0:
+        print("ERROR: Root privileges required for packet capture.")
+        print("Please run with sudo or as root.")
+        sys.exit(1)
+    
+    ids = IDSCore(args.config)
+    
+    # Test alert callback
+    def test_alert_callback(alert):
+        print(f"TEST ALERT: {alert['type']} - {alert['description']}")
+    
+    ids.set_alert_callback(test_alert_callback)
+    
+    print("Starting test monitoring for 30 seconds...")
+    print("Try generating some network traffic to test detection.")
+    
+    try:
+        ids.start_monitoring()
+        time.sleep(30)
+    except KeyboardInterrupt:
+        print("\nTest interrupted by user.")
+    finally:
+        ids.stop_monitoring()
+        
+        stats = ids.get_statistics()
+        print(f"\nTest completed. Analyzed {stats['packets_analyzed']} packets, generated {stats['alerts_generated']} alerts.")
+
+
+def show_logs(args):
+    """Show recent log entries."""
+    log_file = "ids.log"
+    
+    if not os.path.exists(log_file):
+        print("No log file found.")
+        return
+    
+    try:
+        with open(log_file, 'r') as f:
+            lines = f.readlines()
+            
+        if args.lines:
+            lines = lines[-args.lines:]
+        
+        print(f"Recent log entries ({len(lines)} lines):")
+        print("="*50)
+        for line in lines:
+            print(line.strip())
+            
+    except Exception as e:
+        print(f"Error reading log file: {e}")
+
+
+def send_test_notification(args):
+    """Send a test notification using current configuration."""
+    ids = IDSCore(args.config)
+    alert = {
+        'type': 'TEST_ALERT',
+        'severity': args.severity.upper(),
+        'description': f'This is a test alert of severity {args.severity.upper()}',
+        'source': '127.0.0.1',
+        'details': {'note': 'Triggered via CLI test command'}
+    }
+    if getattr(ids, 'notifier', None) is None:
+        print("Notifier not configured or disabled. Enable notifications in ids_config.json.")
+        return
+    try:
+        ids.notifier.maybe_notify(alert)
+        print("Test notification dispatched (check email/WhatsApp).")
+    except Exception as e:
+        print(f"Failed to send test notification: {e}")
+
+
+def main():
+    """Main CLI entry point."""
+    parser = argparse.ArgumentParser(
+        description="blue-wix - Intrusion Detection System CLI",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  sudo ./blue-wix start                    # Start monitoring
+  sudo ./blue-wix start -i eth0            # Start on specific interface
+  sudo ./blue-wix start --stats            # Start with live statistics
+  ./blue-wix config                        # Show configuration
+  sudo ./blue-wix test                     # Test detection
+  ./blue-wix logs                          # Show recent logs
+  ./blue-wix logs -n 50                    # Show last 50 log lines
+        """
+    )
+    
+    subparsers = parser.add_subparsers(dest='command', help='Available commands')
+    
+    # Start command
+    start_parser = subparsers.add_parser('start', help='Start IDS monitoring')
+    start_parser.add_argument('-i', '--interface', help='Network interface to monitor')
+    start_parser.add_argument('-c', '--config', default='ids_config.json', help='Configuration file')
+    start_parser.add_argument('--stats', action='store_true', help='Show live statistics')
+    
+    # Config command
+    config_parser = subparsers.add_parser('config', help='Show current configuration')
+    config_parser.add_argument('-c', '--config', default='ids_config.json', help='Configuration file')
+    
+    # Test command
+    test_parser = subparsers.add_parser('test', help='Test detection capabilities')
+    test_parser.add_argument('-c', '--config', default='ids_config.json', help='Configuration file')
+    
+    # Logs command
+    logs_parser = subparsers.add_parser('logs', help='Show recent log entries')
+    logs_parser.add_argument('-n', '--lines', type=int, default=20, help='Number of lines to show')
+
+    # Notify test command
+    notify_parser = subparsers.add_parser('notify-test', help='Send a test notification using current config')
+    notify_parser.add_argument('-c', '--config', default='ids_config.json', help='Configuration file')
+    notify_parser.add_argument('-s', '--severity', default='HIGH', choices=['LOW','MEDIUM','HIGH','CRITICAL'], help='Test alert severity')
+    
+    args = parser.parse_args()
+    
+    if not args.command:
+        print_banner()
+        parser.print_help()
+        return
+    
+    print_banner()
+    
+    if args.command == 'start':
+        start_monitoring(args)
+    elif args.command == 'config':
+        show_config(args)
+    elif args.command == 'test':
+        test_detection(args)
+    elif args.command == 'logs':
+        show_logs(args)
+    elif args.command == 'notify-test':
+        send_test_notification(args)
+
+
+if __name__ == "__main__":
+    main()
